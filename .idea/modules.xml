@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../netdisk.iml" filepath="$PROJECT_DIR$/../netdisk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-client/netdisk-client.iml" filepath="$PROJECT_DIR$/netdisk-client/netdisk-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-client/netdisk-client-javasdk/netdisk-client-javasdk.iml" filepath="$PROJECT_DIR$/netdisk-client/netdisk-client-javasdk/netdisk-client-javasdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-client-provider/netdisk-client-provider.iml" filepath="$PROJECT_DIR$/netdisk-client-provider/netdisk-client-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-log-api/netdisk-log-api.iml" filepath="$PROJECT_DIR$/netdisk-log-api/netdisk-log-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-log-provider/netdisk-log-provider.iml" filepath="$PROJECT_DIR$/netdisk-log-provider/netdisk-log-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-service-api/netdisk-service-api.iml" filepath="$PROJECT_DIR$/netdisk-service-api/netdisk-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-service-provider/netdisk-service-provider.iml" filepath="$PROJECT_DIR$/netdisk-service-provider/netdisk-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-client/netdisk-spring-boot-starter/netdisk-spring-boot-starter.iml" filepath="$PROJECT_DIR$/netdisk-client/netdisk-spring-boot-starter/netdisk-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-user-api/netdisk-user-api.iml" filepath="$PROJECT_DIR$/netdisk-user-api/netdisk-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-user-provider/netdisk-user-provider.iml" filepath="$PROJECT_DIR$/netdisk-user-provider/netdisk-user-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-web-manage/netdisk-web-manage.iml" filepath="$PROJECT_DIR$/netdisk-web-manage/netdisk-web-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netdisk-web-perpc/netdisk-web-perpc.iml" filepath="$PROJECT_DIR$/netdisk-web-perpc/netdisk-web-perpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils-common/utils-common.iml" filepath="$PROJECT_DIR$/utils-common/utils-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils-filesearch/utils-filesearch.iml" filepath="$PROJECT_DIR$/utils-filesearch/utils-filesearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils-filestore/utils-filestore.iml" filepath="$PROJECT_DIR$/utils-filestore/utils-filestore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils-office/utils-office.iml" filepath="$PROJECT_DIR$/utils-office/utils-office.iml" />
+    </modules>
+  </component>
+</project>
