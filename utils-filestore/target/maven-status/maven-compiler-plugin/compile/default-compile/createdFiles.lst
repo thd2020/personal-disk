@@ -1,9 +1,0 @@
-com\micro\store\service\impl\StoreServiceLocal.class
-com\micro\store\service\impl\StoreServiceFastDFS.class
-com\micro\store\config\StoreConfig.class
-com\micro\store\service\impl\StoreServiceHDFS.class
-com\micro\store\utils\FileUtils.class
-com\micro\store\service\StoreService.class
-com\micro\store\context\StoreContext.class
-com\micro\store\service\impl\StoreServiceFtp.class
-com\micro\store\utils\SpringUtils.class
