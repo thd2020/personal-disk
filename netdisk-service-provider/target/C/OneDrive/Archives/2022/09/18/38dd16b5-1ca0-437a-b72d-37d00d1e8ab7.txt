@@ -1,0 +1,69 @@
+docker run --privileged `
+--name=server `
+-dit `
+-p 8848:8848 `
+-p 2181:2181 `
+-p 6379:6379 `
+-p 8983:8983 `
+-p 3306:3306 `
+-p 8010:8010 `
+-p 8011:8011 `
+-p 8012:8012 `
+-p 8013:8013 `
+-p 8014:8014 `
+-p 8015:8015 `
+-v C:\OneDrive\Projects\Gitee\netdisk:/netdisk/ `
+thd2020/netdisk_server:0.0.3 `
+/usr/sbin/init
+
+docker exec -it server bash
+
+cd /javatools/nacos/bin/ &&\
+sh startup.sh -m standalone &&\
+cd /javatools/apache-zookeeper-3.8.0-bin/bin/ &&\
+./zkServer.sh start &&\
+cd /usr/local/redis/bin/ &&\
+./redis-server redis.conf &&\
+cd /javatools/solr-8.9.0/bin/ &&\
+./solr start -force &&\
+systemctl start mysqld.service
+
+docker exec -it server bash
+cd /netdisk/zwz-netdisk/netdisk-service-provider/target/ &&\
+java -jar netdisk-service-provider.jar
+
+docker exec -it server bash
+cd /netdisk/zwz-netdisk/netdisk-user-provider/target/ &&\
+java -jar netdisk-user-provider.jar
+
+docker exec -it server bash
+cd /netdisk/zwz-netdisk/netdisk-log-provider/target/ &&\
+java -jar netdisk-log-provider.jar
+
+docker exec -it server bash
+cd /netdisk/zwz-netdisk/netdisk-web-perpc/target/ &&\
+java -jar netdisk-web-perpc.jar
+
+docker exec -it server bash
+cd /netdisk/zwz-netdisk/netdisk-web-manage/target/ &&\
+java -jar netdisk-web-manage.jar
+
+
+		<dependency>
+			<groupId>com.alibaba.boot</groupId>
+			<artifactId>nacos-config-spring-boot-starter</artifactId>
+			<version>0.2.7</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+			<version>2021.1</version>
+		</dependency>
+
+mvn clean package -pl netdisk-service-provider -am ;`
+mvn clean package -pl netdisk-user-provider -am ;`
+mvn clean package -pl netdisk-log-provider -am ;`
+mvn clean package -pl netdisk-web-manage -am ;`
+mvn clean package -pl netdisk-web-perpc -am
+
+mvn install:install-file -DgroupId="com.aspose" -DartifactId="aspose-words" -Dversion="15.8.0" -Dpackaging="jar" -Dfile="C:\OneDrive\Libraries\javaLibrary\aspose-words-15.8.0-jdk16.jar"

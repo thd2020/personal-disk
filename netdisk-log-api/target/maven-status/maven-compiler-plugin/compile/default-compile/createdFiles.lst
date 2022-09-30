@@ -1,0 +1,11 @@
+com\micro\logs\aop\CollectionLogAop.class
+com\micro\logs\utils\DateDiff.class
+com\micro\logs\annotation\Logs.class
+com\micro\logs\bean\LogInfo.class
+com\micro\logs\dubbofilter\GlobalTraceFilter.class
+com\micro\logs\utils\JsonUtils.class
+com\micro\logs\utils\HttpClientUtils.class
+com\micro\logs\utils\LogContextHolder.class
+com\micro\logs\aop\CollectionLogAop$1.class
+com\micro\logs\bean\LogProperties.class
+com\micro\logs\aop\IocFactory.class

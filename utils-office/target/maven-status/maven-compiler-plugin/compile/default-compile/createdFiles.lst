@@ -1,0 +1,5 @@
+com\micro\office\preview\PreviewService.class
+com\micro\office\utils\SpringUtils.class
+com\micro\office\preview\Test.class
+com\micro\office\preview\PreviewContext.class
+com\micro\office\preview\AsposePreviewServiceImpl.class
