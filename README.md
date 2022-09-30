@@ -7,19 +7,20 @@
 ![部署架构图](https://images.gitee.com/uploads/images/2020/0406/130302_b4f9bd1f_798389.png "部署架构.png")
 
 # 技术栈说明
-前端技术
-①vue.js+ElementUI 作为基础技术框架
-②WebUploader.js做切块上传框架
-后端技术
-①Maven+SpringBoot+SpringDataJPA作为基础架构
-②Dubbo+Zookeeper作为服务治理架构
-③Nacos作为配置中心
-④Redis做分布式缓存、过期监听
-⑤Zookeeper做分布式锁
-⑥WebSocket+Netty做消息推送
-⑦Solr做全文检索引擎
-⑧FastDFS做分布式文件系统
-⑨基于Redis+token+自定义注解实现接口幂等性
+前端技术<br>
+①vue.js+ElementUI 作为基础技术框架<br>
+②WebUploader.js做切块上传框架<br>
+<br>
+后端技术<br>
+①Maven+SpringBoot+SpringDataJPA作为基础架构<br>
+②Dubbo+Zookeeper作为服务治理架构<br>
+③Nacos作为配置中心<br>
+④Redis做分布式缓存、过期监听<br>
+⑤Zookeeper做分布式锁<br>
+⑥WebSocket+Netty做消息推送<br>
+⑦Solr做全文检索引擎<br>
+⑧FastDFS做分布式文件系统<br>
+⑨基于Redis+token+自定义注解实现接口幂等性<br>
 
 # 功能说明
 一、网盘系统
